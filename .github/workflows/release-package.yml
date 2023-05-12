@@ -1,8 +1,9 @@
 name: Release Package
 
-on:
+#on:
 #  push:
 #    branches: [main] # main 머지 시 자동배포 원하는 경우 사용
+on:
   workflow_dispatch:
     inputs:
       versioning_type:
